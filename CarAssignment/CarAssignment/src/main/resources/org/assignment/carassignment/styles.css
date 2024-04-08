@@ -1,0 +1,68 @@
+/* styles.css */
+.root{
+    -fx-font: bold italic 12pt "Arial";
+    -fx-background-image: url("background.jpg");
+    -fx-background-size: cover;
+}
+/* Apply styles to the main container */
+VBox {
+    -fx-background-color: #f4f4f4;
+    -fx-padding: 20px;
+}
+/* Apply styles to the labels */
+Label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+/* Apply styles to the text field */
+TextField {
+    -fx-pref-width: 200px;
+}
+
+/* Apply styles to the buttons */
+Button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+/* Apply styles to the list view */
+ListView {
+    -fx-border-color: #dddddd;
+    -fx-border-width: 1px;
+    -fx-background-color: white;
+}
+
+/* Apply styles to the list view items */
+.list-cell {
+    -fx-padding: 5px;
+}
+
+/* Apply styles to the radio buttons */
+RadioButton {
+    -fx-font-size: 14px;
+}
+
+/* Apply styles to the selected radio button */
+.radio-button:selected .radio {
+    -fx-text-fill: #007bff;
+}
+
+/* Apply styles to the toggle group */
+#selectionToggleGroup {
+    -fx-padding: 10px;
+}
+
+/* Apply styles to the car details container */
+#carDetailsContainer {
+    -fx-background-color: rgba(255, 255, 255, 0.6);
+    -fx-padding: 20px;
+    -fx-border-color: #dddddd;
+    -fx-border-width: 1px;
+}
+
+/* Apply styles to the back button */
+#backButton {
+    -fx-background-color: #dc3545;
+}
